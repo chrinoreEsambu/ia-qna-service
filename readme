@@ -1,0 +1,68 @@
+````markdown
+# Mistral Chat & Q&A
+
+Un service Node.js permettant de créer un **chat et un système de questions/réponses** basé sur le modèle **Mistral Large**.  
+Il peut répondre à des questions sur un texte fourni, générer des résumés, ou converser de manière naturelle avec l'utilisateur.
+
+---
+
+## 🚀 Fonctionnalités
+
+- Chat style conversation (Assistant IA)  
+- Questions / Réponses sur des textes en français ou anglais  
+- Prompt flexible pour générer des réponses adaptées  
+- Facile à intégrer dans une application Node.js  
+
+---
+
+## 🛠 Installation
+
+1. Clone le repo :
+```bash
+git clone https://github.com/ton-username/ton-repo.git
+cd backend
+````
+
+2. Installe les dépendances :
+
+```bash
+npm install
+```
+
+3. Crée un fichier `.env` à la racine et ajoute ta clé API Mistral :
+
+```env
+MISTRA_API_KEY=ta_cle_api
+```
+
+4. Lancer le serveur :
+
+```bash
+node server.js
+```
+
+---
+
+## 💡 Astuces
+
+* Pour de longs textes, découpe-les en paragraphes pour éviter les réponses tronquées.
+* Modifie le prompt dans le service pour obtenir des réponses adaptées au style souhaité.
+* Vérifie ton quota free tier sur le dashboard Mistral pour ne pas dépasser la limite.
+
+---
+
+## 🔗 Liens utiles
+
+* [Mistral AI](https://mistral.ai)
+* [Documentation API Mistral](https://docs.mistral.ai)
+
+---
+
+## 📝 Licence
+
+MIT License – libre d’utilisation et modification
+
+```
+
+---
+
